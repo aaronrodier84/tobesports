@@ -1,0 +1,50 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-size: 14px;
+}
+
+body {
+    background: #efefef;
+}
+
+.wrapper {
+    min-height: 100%;
+    background-color: transparent;
+
+    .content-wrapper{
+        background-color: transparent;
+    }
+}
+
+.b-lazy {
+  opacity: 0;
+  transition: all 300ms;
+}
+.b-loaded {
+  opacity:1;
+}
+
+/* smaller than Extra small screen */
+@media (max-width: (@screen-sm-max)) {
+  
+}
+
+
+/* smaller than Extra small screen */
+@media (max-width: (@screen-xs-max)) {
+  .container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+/* smaller than 640px screen */
+@media (max-width: (639px)) {
+  
+}
+
+/* smaller than 480px screen */
+@media (max-width: (479px)) {
+  
+}
